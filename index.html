@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>StepRight Footwear – Marketing Portfolio</title>
+<style>
+:root{--bg:#faf7f2;--surface:#fff;--text:#1e1b18;--muted:#6b645c;--accent:#c2410c;--accent2:#7c2d12;--line:#e7e0d6;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171412;--surface:#221e1b;--text:#f3ede6;--muted:#a79d92;--accent:#fb923c;--accent2:#fdba74;--line:#3a332d;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171412;--surface:#221e1b;--text:#f3ede6;--muted:#a79d92;--accent:#fb923c;--accent2:#fdba74;--line:#3a332d;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 60px)}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line);display:flex;gap:4px;overflow-x:auto;padding:8px 10px;white-space:nowrap}
+nav a{color:var(--text);text-decoration:none;font-size:14px;padding:6px 12px;border-radius:999px}
+nav a:hover{background:var(--accent);color:#fff}
+section{max-width:1000px;margin:0 auto;padding:48px 18px}
+.tag{color:var(--accent);font-weight:700;letter-spacing:.08em;font-size:13px;text-transform:uppercase}
+h1{font-size:clamp(32px,7vw,56px);margin:.2em 0}
+h2{font-size:clamp(24px,5vw,34px);margin:.2em 0 .4em}
+h3{margin:.2em 0}
+p{color:var(--muted);margin:.3em 0 1em}
+.hero{text-align:center;padding-top:72px}
+.hero p{font-size:18px}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:600;margin:4px}
+.btn.alt{background:transparent;color:var(--accent);border:2px solid var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px}
+.card p{margin:.2em 0}
+.shoe{height:90px;border-radius:12px;margin-bottom:12px;display:flex;align-items:center;justify-content:center;font-size:44px;background:linear-gradient(135deg,var(--accent),var(--accent2))}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 16px}
+.pills span{background:var(--surface);border:1px solid var(--line);padding:6px 12px;border-radius:999px;font-size:14px}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}
+.stats div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 16px}
+.stats b{display:block;color:var(--accent)}
+.ad{background:linear-gradient(135deg,#7c2d12,#c2410c);color:#fff;border-radius:16px;padding:32px 22px;text-align:center;max-width:520px;margin:auto}
+.ad p{color:#ffedd5}
+.ad .btn{background:#fff;color:#7c2d12}
+.mail{max-width:520px;margin:auto;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-align:center}
+.mail header{background:var(--accent2);color:#fff;padding:14px;font-weight:700;letter-spacing:.1em}
+.mail div{padding:22px}
+.big{font-size:34px;font-weight:800;color:var(--accent)}
+ol.steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;counter-reset:s}
+ol.steps li{counter-increment:s;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 18px 18px 56px;position:relative}
+ol.steps li::before{content:counter(s,decimal-leading-zero);position:absolute;left:16px;top:16px;font-weight:800;color:var(--accent)}
+ol.steps li p{margin:.2em 0}
+iframe{width:100%;height:260px;border:0;border-radius:14px;margin-top:12px}
+footer{text-align:center;padding:28px 18px;color:var(--muted);border-top:1px solid var(--line);font-size:14px}
+</style>
+</head>
+<body>
+<nav>
+<a href="#home">Home</a><a href="#profile">Business Profile</a><a href="#audience">Target Audience</a><a href="#seo">SEO</a><a href="#social">Social Media</a><a href="#ad">Advertisement</a><a href="#email">Email Marketing</a><a href="#improve">Business Improvement</a><a href="#contact">Contacts</a>
+</nav>
+<section id="home" class="hero">
+<div class="tag">Local Footwear Store · Nagpur</div>
+<h1>Step Into Comfort. Walk With Style.</h1>
+<p>Sports Shoes • Formal Shoes • Sandals • Kids' Footwear</p>
+<a class="btn" href="#profile">View Portfolio</a><a class="btn alt" href="#contact">Contact Us</a>
+</section>
+<section id="profile">
+<div class="tag">01 · Business Profile</div>
+<h2>StepRight Footwear</h2>
+<div class="stats">
+<div><b>Type</b>Local Footwear Retail Shop</div><div><b>Since</b>2015</div><div><b>Founded by</b>Mr. Rakesh Sharma</div><div><b>Location</b>Sitabuldi, Nagpur</div>
+</div>
+<h3>Main Products</h3>
+<div class="grid">
+<div class="card"><div class="shoe">👟</div><h3>Sports Shoes</h3><p>Running and gym shoes at fair prices.</p></div>
+<div class="card"><div class="shoe">👞</div><h3>Formal Shoes</h3><p>Office and occasion wear.</p></div>
+<div class="card"><div class="shoe">🩴</div><h3>Sandals &amp; Slippers</h3><p>Everyday comfort for all seasons.</p></div>
+<div class="card"><div class="shoe">🧒</div><h3>Kids' Footwear</h3><p>Durable, school-ready pairs.</p></div>
+</div>
+<h3 style="margin-top:22px">Business Objective</h3>
+<p>To increase the sales of the shop by using SEO, social media, online advertising and email marketing.</p>
+</section>
+<section id="audience">
+<div class="tag">02 · Target Audience</div><h2>Who We Serve</h2>
+<p>Our marketing focuses on customers who value comfortable, stylish and affordable footwear.</p>
+<div class="grid">
+<div class="card"><h3>🎓 College Students</h3><p>Trendy, budget-friendly sneakers and sandals.</p><p><b>Age:</b> 17–25</p></div>
+<div class="card"><h3>💼 Working Professionals</h3><p>Formal and comfortable all-day shoes.</p><p><b>Age:</b> 25–45</p></div>
+<div class="card"><h3>👨‍👩‍👧 Families</h3><p>Footwear for every member, with festive offers.</p><p><b>Age:</b> 25–60</p></div>
+<div class="card"><h3>🏃 Fitness Lovers</h3><p>Sports and walking shoes for daily activity.</p><p><b>Age:</b> 18–50</p></div>
+</div>
+</section>
+<section id="seo">
+<div class="tag">03 · SEO</div><h2>Get Found Online</h2>
+<p>SEO keywords help customers discover StepRight Footwear when they search online.</p>
+<h3>Short Keywords</h3><div class="pills"><span>Shoe shop</span><span>Footwear</span><span>Shoes Nagpur</span><span>Sports shoes</span><span>Formal shoes</span><span>Sandals</span></div>
+<h3>Long-Tail Keywords</h3><div class="pills"><span>Best shoe shop in Nagpur</span><span>Affordable running shoes near me</span><span>Formal shoes for men in Nagpur</span><span>Kids school shoes Sitabuldi</span></div>
+<div class="grid">
+<div class="card"><h3>🔎 On-Page SEO</h3><p>Use keywords in page titles, headings, content and image alt text.</p></div>
+<div class="card"><h3>📍 Local SEO</h3><p>Use Nagpur location terms, Google Business Profile and genuine reviews.</p></div>
+<div class="card"><h3>📱 Content SEO</h3><p>Share shoe care tips, style guides and size guides.</p></div>
+</div>
+</section>
+<section id="social">
+<div class="tag">04 · Social Media Marketing</div><h2>Follow the Footsteps</h2>
+<div class="grid">
+<div class="card"><h3>📸 Instagram</h3><p><b>Content:</b> Reels, new arrivals, styling ideas and customer photos.</p><p><b>Goal:</b> Reach young customers and increase engagement.</p></div>
+<div class="card"><h3>👍 Facebook</h3><p><b>Content:</b> Offers, festival sales and shop updates.</p><p><b>Goal:</b> Reach local families.</p></div>
+<div class="card"><h3>💬 WhatsApp</h3><p><b>Content:</b> Catalogue, prices, offers and order updates.</p><p><b>Goal:</b> Generate direct enquiries and orders.</p></div>
+<div class="card"><h3>▶️ YouTube</h3><p><b>Content:</b> Shoe reviews, size guides, care tips and new launches.</p><p><b>Goal:</b> Build brand awareness.</p></div>
+</div>
+</section>
+<section id="ad">
+<div class="tag">05 · Advertisement Design</div><h2>Sample Digital Ad</h2>
+<p>A sample ad designed to attract attention and drive first-time purchases.</p>
+<div class="ad"><div style="font-size:56px">👟</div><h3>StepRight Footwear</h3><p>“New season, new steps. Comfortable shoes at prices you'll love.”</p><div class="big" style="color:#fff">FLAT 20% OFF</div><a class="btn" href="#contact">DM Us to Order</a></div>
+</section>
+<section id="email">
+<div class="tag">06 · Email Marketing</div><h2>Offers in Your Inbox</h2>
+<p>A sample promotional email for customers and repeat-purchase campaigns.</p>
+<div class="mail"><header>STEPRIGHT FOOTWEAR</header><div><h3>Special Offer For You!</h3><p>Hi [Customer Name], find your perfect pair this season.</p><div class="big">🎁 20% OFF</div><p><b>On your first purchase</b></p><a class="btn" href="#contact">SHOP NOW</a><p>👟 Sports &nbsp; 👞 Formal &nbsp; 🩴 Sandals</p><p>🚚 Free delivery within Nagpur</p></div></div>
+</section>
+<section id="improve">
+<div class="tag">07 · Business Improvement</div><h2>Growing StepRight</h2><p>Practical improvements to increase reach, trust and sales.</p>
+<ol class="steps">
+<li><h3>Google Business Profile</h3><p>Improve local visibility so nearby customers find the shop.</p></li>
+<li><h3>Customer Reviews &amp; Feedback</h3><p>Collect genuine reviews and improve range, price and service.</p></li>
+<li><h3>Instagram Reels</h3><p>Show new arrivals, styling ideas and unboxing.</p></li>
+<li><h3>Referral &amp; Loyalty Offers</h3><p>Reward customers for bringing friends and family.</p></li>
+<li><h3>Easy Online Ordering</h3><p>Offer WhatsApp ordering and home delivery.</p></li>
+<li><h3>Track Performance</h3><p>Monitor reach, enquiries, footfall and monthly sales.</p></li>
+</ol>
+</section>
+<section id="contact">
+<div class="tag">08 · Contacts</div><h2>Contact Us</h2>
+<div class="grid">
+<div class="card"><h3>📞 Phone</h3><p>+91 90000 00000</p></div>
+<div class="card"><h3>💬 WhatsApp</h3><p>+91 90000 00000</p></div>
+<div class="card"><h3>✉️ Email</h3><p>yourname@sbjit.edu.in</p></div>
+<div class="card"><h3>📍 Address</h3><p>StepRight Footwear, Sitabuldi, Nagpur</p></div>
+<div class="card"><h3>🕘 Working Hours</h3><p>10:00 AM – 9:00 PM</p></div>
+</div>
+<h3 style="margin-top:22px">📍 Find Us in Nagpur</h3>
+<iframe title="StepRight Footwear location, Sitabuldi, Nagpur" loading="lazy" src="https://www.google.com/maps?q=Sitabuldi,Nagpur&output=embed"></iframe>
+<p style="margin-top:12px"><a class="btn alt" href="https://www.google.com/maps/search/?api=1&amp;query=Sitabuldi+Nagpur" target="_blank" rel="noopener">Open in Google Maps</a></p>
+</section>
+<footer>© 2026 StepRight Footwear · Marketing Portfolio · S. B. Jain Institute of Technology, Management &amp; Research, Nagpur</footer>
+</body>
+</html>
